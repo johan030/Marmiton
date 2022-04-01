@@ -71,6 +71,6 @@ class __TwigTemplate_9a1929d707d965385453278857590210 extends Template
     public function getSourceContext()
     {
         return new Source("{% extends \"@email/zurb_2/notification/body.html.twig\" %}
-", "@email/default/notification/body.html.twig", "/home/johan/Documents/projects/marmiton/eval_marmiton/vendor/symfony/twig-bridge/Resources/views/Email/default/notification/body.html.twig");
+", "@email/default/notification/body.html.twig", "/home/yohann/Documents/Marmiton/vendor/symfony/twig-bridge/Resources/views/Email/default/notification/body.html.twig");
     }
 }
