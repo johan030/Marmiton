@@ -482,6 +482,6 @@ class __TwigTemplate_df7e900d039d33f7d182a7bab60e4a58 extends Template
         {% endfor %}
     </table>
 {% endmacro %}
-", "@WebProfiler/Collector/events.html.twig", "/home/yohann/Documents/Marmiton/vendor/symfony/web-profiler-bundle/Resources/views/Collector/events.html.twig");
+", "@WebProfiler/Collector/events.html.twig", "/home/johan/Documents/projects/marmiton/Marmiton/vendor/symfony/web-profiler-bundle/Resources/views/Collector/events.html.twig");
     }
 }

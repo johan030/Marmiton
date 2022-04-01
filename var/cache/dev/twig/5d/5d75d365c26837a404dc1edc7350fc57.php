@@ -155,6 +155,6 @@ class __TwigTemplate_df0776e700c42753a518d12833c9b7d0 extends Template
 {% block panel %}
     {{ render(controller('web_profiler.controller.router::panelAction', { token: token })) }}
 {% endblock %}
-", "@WebProfiler/Collector/router.html.twig", "/home/yohann/Documents/Marmiton/vendor/symfony/web-profiler-bundle/Resources/views/Collector/router.html.twig");
+", "@WebProfiler/Collector/router.html.twig", "/home/johan/Documents/projects/marmiton/Marmiton/vendor/symfony/web-profiler-bundle/Resources/views/Collector/router.html.twig");
     }
 }

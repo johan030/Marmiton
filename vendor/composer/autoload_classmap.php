@@ -6,7 +6,15 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'App\\Entity\\Categorie' => $baseDir . '/src/Entity/Categorie.php',
+    'App\\Entity\\Ingredients' => $baseDir . '/src/Entity/Ingredients.php',
+    'App\\Entity\\Recette' => $baseDir . '/src/Entity/Recette.php',
+    'App\\Entity\\User' => $baseDir . '/src/Entity/User.php',
     'App\\Kernel' => $baseDir . '/src/Kernel.php',
+    'App\\Repository\\CategorieRepository' => $baseDir . '/src/Repository/CategorieRepository.php',
+    'App\\Repository\\IngredientsRepository' => $baseDir . '/src/Repository/IngredientsRepository.php',
+    'App\\Repository\\RecetteRepository' => $baseDir . '/src/Repository/RecetteRepository.php',
+    'App\\Repository\\UserRepository' => $baseDir . '/src/Repository/UserRepository.php',
     'Collator' => $vendorDir . '/symfony/polyfill-intl-icu/Resources/stubs/Collator.php',
     'Composer\\InstalledVersions' => $vendorDir . '/composer/InstalledVersions.php',
     'Doctrine\\Bundle\\DoctrineBundle\\Attribute\\AsEntityListener' => $vendorDir . '/doctrine/doctrine-bundle/Attribute/AsEntityListener.php',

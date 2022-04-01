@@ -551,7 +551,15 @@ class ComposerStaticInit75c80f3e0b9b47ccedf788e2b942e3eb
     );
 
     public static $classMap = array (
+        'App\\Entity\\Categorie' => __DIR__ . '/../..' . '/src/Entity/Categorie.php',
+        'App\\Entity\\Ingredients' => __DIR__ . '/../..' . '/src/Entity/Ingredients.php',
+        'App\\Entity\\Recette' => __DIR__ . '/../..' . '/src/Entity/Recette.php',
+        'App\\Entity\\User' => __DIR__ . '/../..' . '/src/Entity/User.php',
         'App\\Kernel' => __DIR__ . '/../..' . '/src/Kernel.php',
+        'App\\Repository\\CategorieRepository' => __DIR__ . '/../..' . '/src/Repository/CategorieRepository.php',
+        'App\\Repository\\IngredientsRepository' => __DIR__ . '/../..' . '/src/Repository/IngredientsRepository.php',
+        'App\\Repository\\RecetteRepository' => __DIR__ . '/../..' . '/src/Repository/RecetteRepository.php',
+        'App\\Repository\\UserRepository' => __DIR__ . '/../..' . '/src/Repository/UserRepository.php',
         'Collator' => __DIR__ . '/..' . '/symfony/polyfill-intl-icu/Resources/stubs/Collator.php',
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
         'Doctrine\\Bundle\\DoctrineBundle\\Attribute\\AsEntityListener' => __DIR__ . '/..' . '/doctrine/doctrine-bundle/Attribute/AsEntityListener.php',
