@@ -54,6 +54,12 @@ return [[
 '[C]Symfony%5CBundle%5CFrameworkBundle%5CController%5CAbstractController%23addLink' => 1,
 'Symfony%5CBundle%5CFrameworkBundle%5CController%5CAbstractController%24container' => 0,
 '[C]Symfony%5CBundle%5CFrameworkBundle%5CController%5CAbstractController%24container' => 1,
+'App%5CController%5CSecurityController' => 0,
+'[C]App%5CController%5CSecurityController' => 1,
+'App%5CController%5CSecurityController%23login' => 0,
+'[C]App%5CController%5CSecurityController%23login' => 1,
+'App%5CController%5CSecurityController%23logout' => 0,
+'[C]App%5CController%5CSecurityController%23logout' => 1,
 'App%5CEntity%5CCategorie' => 0,
 '[C]App%5CEntity%5CCategorie' => 1,
 'App%5CEntity%5CCategorie%23getId' => 0,
@@ -732,6 +738,6 @@ return [[
 ], [
 
 0 => [],
-1 => 1648816379,
+1 => 1648820254,
 
 ]];

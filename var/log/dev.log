@@ -249,3 +249,4 @@
 [2022-04-01T14:40:13.548019+02:00] doctrine.DEBUG: Executing query: SELECT * FROM doctrine_migration_versions {"sql":"SELECT * FROM doctrine_migration_versions"} []
 [2022-04-01T14:40:13.549348+02:00] doctrine.DEBUG: Executing query: SELECT DATABASE() {"sql":"SELECT DATABASE()"} []
 [2022-04-01T14:40:13.591560+02:00] doctrine.INFO: Disconnecting [] []
+[2022-04-01T15:37:16.420780+02:00] console.DEBUG: Command "make:fixtures" exited with code "1" {"command":"make:fixtures","code":1} []
