@@ -567,6 +567,9 @@ class ComposerStaticInit75c80f3e0b9b47ccedf788e2b942e3eb
 
     public static $classMap = array (
         'App\\Controller\\RegistrationController' => __DIR__ . '/../..' . '/src/Controller/RegistrationController.php',
+        'App\\Controller\\SecurityController' => __DIR__ . '/../..' . '/src/Controller/SecurityController.php',
+        'App\\DataFixtures\\AppFixtures' => __DIR__ . '/../..' . '/src/DataFixtures/AppFixtures.php',
+        'App\\DataFixtures\\Userfixtures' => __DIR__ . '/../..' . '/src/DataFixtures/Userfixtures.php',
         'App\\Entity\\Categorie' => __DIR__ . '/../..' . '/src/Entity/Categorie.php',
         'App\\Entity\\Ingredients' => __DIR__ . '/../..' . '/src/Entity/Ingredients.php',
         'App\\Entity\\Recette' => __DIR__ . '/../..' . '/src/Entity/Recette.php',
@@ -578,6 +581,7 @@ class ComposerStaticInit75c80f3e0b9b47ccedf788e2b942e3eb
         'App\\Repository\\RecetteRepository' => __DIR__ . '/../..' . '/src/Repository/RecetteRepository.php',
         'App\\Repository\\UserRepository' => __DIR__ . '/../..' . '/src/Repository/UserRepository.php',
         'App\\Security\\EmailVerifier' => __DIR__ . '/../..' . '/src/Security/EmailVerifier.php',
+        'App\\Security\\LoginFormAuthenticator' => __DIR__ . '/../..' . '/src/Security/LoginFormAuthenticator.php',
         'Collator' => __DIR__ . '/..' . '/symfony/polyfill-intl-icu/Resources/stubs/Collator.php',
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
         'Doctrine\\Bundle\\DoctrineBundle\\Attribute\\AsEntityListener' => __DIR__ . '/..' . '/doctrine/doctrine-bundle/Attribute/AsEntityListener.php',

@@ -360,6 +360,7 @@
       </call>
     </service>
     <service id="App\DataFixtures\AppFixtures" class="App\DataFixtures\AppFixtures" autowire="true" autoconfigure="true"/>
+    <service id="App\DataFixtures\Userfixtures" class="App\DataFixtures\Userfixtures" autowire="true" autoconfigure="true"/>
     <service id="App\Form\RegistrationFormType" class="App\Form\RegistrationFormType" autowire="true" autoconfigure="true">
       <tag name="form.type"/>
     </service>

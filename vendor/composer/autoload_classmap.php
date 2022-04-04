@@ -7,6 +7,9 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'App\\Controller\\RegistrationController' => $baseDir . '/src/Controller/RegistrationController.php',
+    'App\\Controller\\SecurityController' => $baseDir . '/src/Controller/SecurityController.php',
+    'App\\DataFixtures\\AppFixtures' => $baseDir . '/src/DataFixtures/AppFixtures.php',
+    'App\\DataFixtures\\Userfixtures' => $baseDir . '/src/DataFixtures/Userfixtures.php',
     'App\\Entity\\Categorie' => $baseDir . '/src/Entity/Categorie.php',
     'App\\Entity\\Ingredients' => $baseDir . '/src/Entity/Ingredients.php',
     'App\\Entity\\Recette' => $baseDir . '/src/Entity/Recette.php',
@@ -18,6 +21,7 @@ return array(
     'App\\Repository\\RecetteRepository' => $baseDir . '/src/Repository/RecetteRepository.php',
     'App\\Repository\\UserRepository' => $baseDir . '/src/Repository/UserRepository.php',
     'App\\Security\\EmailVerifier' => $baseDir . '/src/Security/EmailVerifier.php',
+    'App\\Security\\LoginFormAuthenticator' => $baseDir . '/src/Security/LoginFormAuthenticator.php',
     'Collator' => $vendorDir . '/symfony/polyfill-intl-icu/Resources/stubs/Collator.php',
     'Composer\\InstalledVersions' => $vendorDir . '/composer/InstalledVersions.php',
     'Doctrine\\Bundle\\DoctrineBundle\\Attribute\\AsEntityListener' => $vendorDir . '/doctrine/doctrine-bundle/Attribute/AsEntityListener.php',
