@@ -15,12 +15,15 @@ return [
     '_profiler_router' => [['token'], ['_controller' => 'web_profiler.controller.router::panelAction'], [], [['text', '/router'], ['variable', '/', '[^/]++', 'token', true], ['text', '/_profiler']], [], [], []],
     '_profiler_exception' => [['token'], ['_controller' => 'web_profiler.controller.exception_panel::body'], [], [['text', '/exception'], ['variable', '/', '[^/]++', 'token', true], ['text', '/_profiler']], [], [], []],
     '_profiler_exception_css' => [['token'], ['_controller' => 'web_profiler.controller.exception_panel::stylesheet'], [], [['text', '/exception.css'], ['variable', '/', '[^/]++', 'token', true], ['text', '/_profiler']], [], [], []],
+<<<<<<< HEAD
     'main' => [[], ['_controller' => 'App\\Controller\\MainController::index'], [], [['text', '/']], [], [], []],
     'app_recette_index' => [[], ['_controller' => 'App\\Controller\\RecetteController::index'], [], [['text', '/recette/']], [], [], []],
     'app_recette_new' => [[], ['_controller' => 'App\\Controller\\RecetteController::new'], [], [['text', '/recette/new']], [], [], []],
     'app_recette_show' => [['id'], ['_controller' => 'App\\Controller\\RecetteController::show'], [], [['variable', '/', '[^/]++', 'id', true], ['text', '/recette']], [], [], []],
     'app_recette_edit' => [['id'], ['_controller' => 'App\\Controller\\RecetteController::edit'], [], [['text', '/edit'], ['variable', '/', '[^/]++', 'id', true], ['text', '/recette']], [], [], []],
     'app_recette_delete' => [['id'], ['_controller' => 'App\\Controller\\RecetteController::delete'], [], [['variable', '/', '[^/]++', 'id', true], ['text', '/recette']], [], [], []],
+=======
+>>>>>>> main
     'app_register' => [[], ['_controller' => 'App\\Controller\\RegistrationController::register'], [], [['text', '/register']], [], [], []],
     'app_verify_email' => [[], ['_controller' => 'App\\Controller\\RegistrationController::verifyUserEmail'], [], [['text', '/verify/email']], [], [], []],
     'app_login' => [[], ['_controller' => 'App\\Controller\\SecurityController::login'], [], [['text', '/login']], [], [], []],
