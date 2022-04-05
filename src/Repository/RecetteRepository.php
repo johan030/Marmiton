@@ -44,7 +44,16 @@ class RecetteRepository extends ServiceEntityRepository
             $this->_em->flush();
         }
     }
-
+    public function search($value)
+    {   //SELECT * FROM post as l WHERE l.titre LIKE "%xxx%" ORDER BY l.titre, l.auteur
+        return $this->createQueryBuilder('p')//le paramètre l représente la table post (comme un alias dans une requête SQL)
+            ->where('p.title LIKE :val')
+            ->setParameter('val', "%$value%")
+            ->orderBy('p.title', 'ASC')
+            ->getQuery()
+            ->getResult()
+        ;
+    }
     // /**
     //  * @return Recette[] Returns an array of Recette objects
     //  */
