@@ -33,7 +33,7 @@ class UserFixtures extends Fixture
             $user->setPassword(
                 $this->userPasswordHasher->hashPassword(
                     $user,
-                    'test'));
+                    'tester'));
              $user->setIsVerified($this->faker->boolean(90));;
        
             $manager->persist($user);
