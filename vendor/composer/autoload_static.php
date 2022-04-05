@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit535759dc3b45cdb915850f0f2d384cb0
+class ComposerStaticInit2da0c041a4c590ccbaf57621911e99a3
 {
     public static $files = array (
         '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/bootstrap.php',
@@ -578,7 +578,6 @@ class ComposerStaticInit535759dc3b45cdb915850f0f2d384cb0
         'App\\DataFixtures\\IngredientsFixtures' => __DIR__ . '/../..' . '/src/DataFixtures/IngredientsFixtures.php',
         'App\\DataFixtures\\RecetteFixtures' => __DIR__ . '/../..' . '/src/DataFixtures/RecetteFixtures.php',
         'App\\DataFixtures\\UserFixtures' => __DIR__ . '/../..' . '/src/DataFixtures/UserFixtures.php',
-        'App\\Entity\\Admin' => __DIR__ . '/../..' . '/src/Entity/Admin.php',
         'App\\Entity\\Categorie' => __DIR__ . '/../..' . '/src/Entity/Categorie.php',
         'App\\Entity\\Ingredients' => __DIR__ . '/../..' . '/src/Entity/Ingredients.php',
         'App\\Entity\\Recette' => __DIR__ . '/../..' . '/src/Entity/Recette.php',
@@ -634,7 +633,6 @@ class ComposerStaticInit535759dc3b45cdb915850f0f2d384cb0
         'Doctrine\\Bundle\\DoctrineBundle\\DependencyInjection\\Compiler\\EntityListenerPass' => __DIR__ . '/..' . '/doctrine/doctrine-bundle/DependencyInjection/Compiler/EntityListenerPass.php',
         'Doctrine\\Bundle\\DoctrineBundle\\DependencyInjection\\Compiler\\IdGeneratorPass' => __DIR__ . '/..' . '/doctrine/doctrine-bundle/DependencyInjection/Compiler/IdGeneratorPass.php',
         'Doctrine\\Bundle\\DoctrineBundle\\DependencyInjection\\Compiler\\MiddlewaresPass' => __DIR__ . '/..' . '/doctrine/doctrine-bundle/DependencyInjection/Compiler/MiddlewaresPass.php',
-        'Doctrine\\Bundle\\DoctrineBundle\\DependencyInjection\\Compiler\\RemoveLoggingMiddlewarePass' => __DIR__ . '/..' . '/doctrine/doctrine-bundle/DependencyInjection/Compiler/RemoveLoggingMiddlewarePass.php',
         'Doctrine\\Bundle\\DoctrineBundle\\DependencyInjection\\Compiler\\RemoveProfilerControllerPass' => __DIR__ . '/..' . '/doctrine/doctrine-bundle/DependencyInjection/Compiler/RemoveProfilerControllerPass.php',
         'Doctrine\\Bundle\\DoctrineBundle\\DependencyInjection\\Compiler\\ServiceRepositoryCompilerPass' => __DIR__ . '/..' . '/doctrine/doctrine-bundle/DependencyInjection/Compiler/ServiceRepositoryCompilerPass.php',
         'Doctrine\\Bundle\\DoctrineBundle\\DependencyInjection\\Compiler\\WellKnownSchemaFilterPass' => __DIR__ . '/..' . '/doctrine/doctrine-bundle/DependencyInjection/Compiler/WellKnownSchemaFilterPass.php',
@@ -3049,12 +3047,6 @@ class ComposerStaticInit535759dc3b45cdb915850f0f2d384cb0
         'Symfony\\Bridge\\Doctrine\\Messenger\\DoctrineOpenTransactionLoggerMiddleware' => __DIR__ . '/..' . '/symfony/doctrine-bridge/Messenger/DoctrineOpenTransactionLoggerMiddleware.php',
         'Symfony\\Bridge\\Doctrine\\Messenger\\DoctrinePingConnectionMiddleware' => __DIR__ . '/..' . '/symfony/doctrine-bridge/Messenger/DoctrinePingConnectionMiddleware.php',
         'Symfony\\Bridge\\Doctrine\\Messenger\\DoctrineTransactionMiddleware' => __DIR__ . '/..' . '/symfony/doctrine-bridge/Messenger/DoctrineTransactionMiddleware.php',
-        'Symfony\\Bridge\\Doctrine\\Middleware\\Debug\\Connection' => __DIR__ . '/..' . '/symfony/doctrine-bridge/Middleware/Debug/Connection.php',
-        'Symfony\\Bridge\\Doctrine\\Middleware\\Debug\\DebugDataHolder' => __DIR__ . '/..' . '/symfony/doctrine-bridge/Middleware/Debug/DebugDataHolder.php',
-        'Symfony\\Bridge\\Doctrine\\Middleware\\Debug\\Driver' => __DIR__ . '/..' . '/symfony/doctrine-bridge/Middleware/Debug/Driver.php',
-        'Symfony\\Bridge\\Doctrine\\Middleware\\Debug\\Middleware' => __DIR__ . '/..' . '/symfony/doctrine-bridge/Middleware/Debug/Middleware.php',
-        'Symfony\\Bridge\\Doctrine\\Middleware\\Debug\\Query' => __DIR__ . '/..' . '/symfony/doctrine-bridge/Middleware/Debug/Query.php',
-        'Symfony\\Bridge\\Doctrine\\Middleware\\Debug\\Statement' => __DIR__ . '/..' . '/symfony/doctrine-bridge/Middleware/Debug/Statement.php',
         'Symfony\\Bridge\\Doctrine\\PropertyInfo\\DoctrineExtractor' => __DIR__ . '/..' . '/symfony/doctrine-bridge/PropertyInfo/DoctrineExtractor.php',
         'Symfony\\Bridge\\Doctrine\\SchemaListener\\DoctrineDbalCacheAdapterSchemaSubscriber' => __DIR__ . '/..' . '/symfony/doctrine-bridge/SchemaListener/DoctrineDbalCacheAdapterSchemaSubscriber.php',
         'Symfony\\Bridge\\Doctrine\\SchemaListener\\MessengerTransportDoctrineSchemaSubscriber' => __DIR__ . '/..' . '/symfony/doctrine-bridge/SchemaListener/MessengerTransportDoctrineSchemaSubscriber.php',
@@ -6074,9 +6066,9 @@ class ComposerStaticInit535759dc3b45cdb915850f0f2d384cb0
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit535759dc3b45cdb915850f0f2d384cb0::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit535759dc3b45cdb915850f0f2d384cb0::$prefixDirsPsr4;
-            $loader->classMap = ComposerStaticInit535759dc3b45cdb915850f0f2d384cb0::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit2da0c041a4c590ccbaf57621911e99a3::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit2da0c041a4c590ccbaf57621911e99a3::$prefixDirsPsr4;
+            $loader->classMap = ComposerStaticInit2da0c041a4c590ccbaf57621911e99a3::$classMap;
 
         }, null, ClassLoader::class);
     }
